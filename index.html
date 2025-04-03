@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>shyam slice project</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="otherimage/png" href="otherimages/scr.png">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        
+    </head>
+    
+    <body>
+        <marquee style="color: azure;"> HI this is slicing game website designed by shyam......</marquee>
+        <div id="container">
+            <div class="logoofme"><img src="otherimages/IMG_20250316_234424_716.webp" alt=""></div>
+            <div id="instructions">
+                Fruits Cutting & Slicing
+            </div>
+
+        
+        <div id="fruitcontainer";>
+            <div id="score">
+                <div class="scoreDisplay"><img src="otherimages/scr.png" alt="">
+                    <span id="scoreValue">0</span></div>
+            </div>
+    
+            <div id="trialsleft"></div>
+            <div id="front">
+                Lets begin 🔪? <br/>
+                <img src="otherimages/splash.png" alt="Fruit logo">
+            </div>    
+            <img id="fruit1" class="fruit">
+        </div>
+
+        
+        
+        <div id="startReset">
+            Start Game
+        </div>
+        <!--for game over block-->
+        <div id="gameOver"></div>
+        </div>
+        <!--for audio files-->
+        <audio id="slicesound">
+            <source src="audio/slicingsound.mp3"></source>
+            <source src="audio/slicingsound.ogg"></source>
+            <source src="audio/slicingsound.wav"></source>
+        </audio>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
